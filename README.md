@@ -1,3 +1,17 @@
+# Blockchain for Teens
+
+## Smart Contracts and Dapps
+### SETUP ENVIORMENT
+---
+**PREREQUISITE:**
+
+- Installing node.js
+```shell
+Follow the node office installation guide, download and install node.js
+https://nodejs.org/en/download/
+```
+- Installing Git
+```shell
 Follow the git office installation guide to install Git.  
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 ```
@@ -23,4 +37,4 @@ git clone https://github.com/Apress/Blockchain-for-Teens.git
     http://localhost:3000
 ```
 
-![img](https://github.com/Apress/Blockchain-for-Teens/screen/Dapp.png)
+![img](https://github.com/Apress/Blockchain-for-Teens/blob/master/screen/Dapp.png)

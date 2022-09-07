@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World Dapp</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/css/mdb.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main class="container-fluid">
+      <header>
+        <div class="d-flex align-items-start bg-dark mb-1" style="height: 80px;">
+          <div class="col"></div>
+          <div class="col text-center text-light" ><h1 id="logo-text" class="text-center">E2E Hello World Dapp</h1></div>
+          <div class="col text-right"><span><img id="mm-logo" src="image/metamask-fox.svg" />Status</span><button id="connected" type="button" class="btn btn-success">Success</button><button id="connectMetamask" type="button" class="btn btn-warning">Connect</button></div>
+       </div>
+      </header>
+      <section>
+        <div class="row">
+          <div class="col-xl-3 col-lg-6 col-md-12 col-sm-12 col-12">
+            <p class="info-text alert alert-success">
+              Network: <span id="network"></span>
+            </p>
+          </div>
+
+          <div class="col-xl-3 col-lg-6 col-md-12 col-sm-12 col-12">
+            <p class="info-text alert alert-success">
+              ChainId: <span id="chainId"></span>
+            </p>
+          </div>
+
+          <div class="col-xl-3 col-lg-6 col-md-12 col-sm-12 col-12">
+            <p class="info-text alert alert-success">
+              Accounts: <span id="accounts"></span>
+            </p>
+          </div>
+          <div class="col-xl-3 col-lg-6 col-md-12 col-sm-12 col-12">
+            <p class="info-text alert alert-success">
+              Balance: <span id="balance"></span>
+            </p>
+          </div>
+        </div>
+      </section>
+     <section>
+       <div class="row d-flex justify-content-center">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+        <div class="card w-90 bg-white">
+    
+          <div class="card-body">
+            <h5 class="card-title">Message: <span id="disPlayMessage"></span></h5>
+            <p class="card-text"> <input type="text" id="messageInput" class="form-control mb-4" placeholder="update message"></p>
+            <div class="card-text text-right"><button id="getMessage" type="button" class="btn btn-primary ">Message</button><button id="updateMessage" type="button" class="btn btn-danger">Update</button></div>
+          </div>
+          
+        </div>
+       
+      </div>
+       </div>
+     </section>
+
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+    <script src="js/client.js" defer></script>
+  </body>
+</html>
